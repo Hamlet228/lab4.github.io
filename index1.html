@@ -1,0 +1,89 @@
+*,
+      *::after,
+      *::before {
+        box-sizing: border-box;
+      }
+      
+
+body {
+        font-family: "roboto", sans-serif;
+
+        background-color: #f2f2f2;
+        color: #374151;
+        display: flex;
+        width: 100%;
+        min-height: 100%;
+        align-items: center;
+        justify-content: center;
+        
+      }
+	  .label_2,form__checkbox--label2{
+		display: inline-block;
+		width: 200px;
+		margin-right: 10px;
+		vertical-align: middle
+	  }
+.form label {
+	display: inline-block;
+  	width: 150px; /* Ширина для всех меток */
+  	text-align: right; /* Выравнивание меток по правому краю */
+  	margin-right: 10px; /* Расстояние между меткой и полем ввода */
+  	vertical-align: middle; /* Выравнивание элементов по вертикали */
+	}
+
+	.form input, .form select {
+  	display: inline-block;
+  	width: 200px; /* Ширина для всех полей ввода */
+  	margin-right: -90px; /* Расстояние между полями ввода */
+  	vertical-align: middle; /* Выравнивание элементов по вертикали */
+	}
+
+      	.form__submit {
+ 	padding: 16px 24px;
+ 	font-weight: 500;
+ 	color: #ffff;
+ 	border: 1px solid #d2d6db;
+ 	background-color: #808080; /* изменение цвета на синий */
+ 	border-radius: 6px;
+ 	display: flex;
+ 	cursor: pointer;
+ 	margin-left: auto;
+	}
+
+div{
+	text-align:  justify;
+}
+
+  /* стили для label */
+  .form__group--labell {
+	display: block;
+	margin-bottom: 0.25rem;
+  }
+  /* стили для input */
+  .form__group--label,.form__control {
+	display: block;
+	width: 100%;
+	height: calc(2.25rem + 2px);
+	padding: 0.375rem 0.75rem;
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #bdbdbd;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .form label {
+	display: inline-block;
+	width: 167px;
+	text-align: right;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.form__checkbox--label2{
+	width: auto;
+	display: inline-block;
+}
