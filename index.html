@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <style>
+  
+    </style> 
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="form form--hotel-booking">
+  <div class="form__header">
+    <h1>Бронирование номера в отеле</h1>
+    <hr>
+  </div>
+  <div class="form__body">
+    <div class="form__group">
+      <label class="form__group--label" for="check-in-date">Дата заезда</label>
+      <input class="form__control" 
+      type="date" id="check-in-date" 
+      name="check-in-date">
+    </div>
+    <div class="form__group">
+      <label class="form__group--label" for="check-out-date">Дата выезда</label>
+      <input class="form__control" 
+      type="date" id="check-out-date" 
+      name="check-out-date">
+    </div>
+    <div class="form__group">
+
+      <label class="form__group--label" 
+      for="room-type">Тип номера</label>
+      <select class="form__control" 
+      id="room-type" name="room-type">
+        <option value="single">Одноместный</option>
+        <option value="double">Двухместный</option>
+        <option value="triple">Трехместный</option>
+      </select>
+    </div>
+    <div class="form__group">
+      <label class="form__group--label" 
+      for="room-preference">Предпочтения </label>
+      <input class="form__control" 
+      type="text" id="room-preference" 
+      name="room-preference" 
+      placeholder="Например, вид на море">
+    </div>
+    <div class="form__group">
+      <label class="form__group--label" 
+      for="guest-name">ФИО гостя</label>
+      <input class="form__control" 
+      type="text" id="guest-name" 
+      placeholder="Барсегян Гамлет"
+      name="guest-name">
+    </div>
+
+    <div class="form__group">
+      <label class="form__group--label" 
+      for="guest-email">Email гостя</label>
+      <input class="form__control" 
+      type="email" id="guest-email" 
+      placeholder="KRE@mail.ru"
+      name="guest-email">
+     
+    </div>
+    <div class="form__group">
+      <label class="form__group--label" 
+      for="guest-phone">Телефон гостя</label>
+      <input class="form__control" 
+      type="tel" id="guest-phone" 
+      placeholder = "8 (953) *** ** **"
+      name="guest-phone">
+
+    <div class="form__group">
+      <input class="form__checkbox" 
+      type="checkbox" id="subscribe-newsletter" 
+      name="subscribe-newsletter">
+      <label2 class="form__checkbox--label2" 
+      for="subscribe-newsletter">Подписаться на рассылку новостей</label>
+    </div>
+    <div class="form__group">
+      <input class="form__submit" 
+      type="submit" 
+      value="Забронировать">
+      
+    </div>
+  </div>
+</div>
+  </body>
+</html>
